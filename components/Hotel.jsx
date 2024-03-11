@@ -6,7 +6,7 @@ const Hotel = ({ e }) => {
     <div className=" border-2 border-red-500 rounded-lg h-96 w-full mb-5 p-5">
       <div className="flex">
         <Image
-          src={e?.banner}
+          src={e?.gallery[0]}
           alt="hotel"
           width={200}
           height={200}
